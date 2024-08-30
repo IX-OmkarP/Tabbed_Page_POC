@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Testing_Tab.View"
+            Title="Tab Page 1"
+            x:Class="Testing_Tab.MainPage">
+
+    <local:Tab_Page_1 Title="Tab Page 1" />
+    <local:Tab_Page_2 Title="Tab Page 2" />
+    <local:Tab_Page_3 Title="Tab Page 3" />
+
+</TabbedPage>

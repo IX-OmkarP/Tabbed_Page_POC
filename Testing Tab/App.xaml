@@ -1,0 +1,20 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Testing_Tab"
+             x:Class="Testing_Tab.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="Tab_Page_1_Color">#2E7D32</Color>
+            <Color x:Key="Tab_Page_2_Color">#ff9933</Color>
+            <Color x:Key="Tab_Page_3_Color">#009688</Color>
+            <Color x:Key="No_Title_Color">#1565C0</Color>
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
